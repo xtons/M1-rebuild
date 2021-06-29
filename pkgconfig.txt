@@ -1,0 +1,6 @@
+Download pkgconfig source from https://pkgconfig.freedesktop.org/
+Current version is 0.29.2
+
+    ./configure --with-internal-glib
+    make
+    sudo make install

@@ -1,0 +1,6 @@
+Download libass source from https://github.com/libass/libass
+Current version is 0.15.1
+
+    ./configure --disable-static --disable-coretext --enable-fontconfig
+    make
+    make install

@@ -1,0 +1,6 @@
+Download m4 source from https://www.gnu.org/software/m4/
+Current version is 1.4.19 (xcode's m4 is 1.4.6)
+
+    ./configure
+    make
+    sudo make install

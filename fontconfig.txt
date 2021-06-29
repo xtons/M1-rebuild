@@ -1,0 +1,6 @@
+Download fontconfig source from https://www.freedesktop.org/wiki/Software/fontconfig/ or https://github.com/freedesktop/fontconfig
+Current version is 2.13.94 (2.13.1 release has segment fault)
+
+    ./configure --disable-static --disable-docs --enable-iconv
+    make
+    sudo make install  (have some sed error, copy Makefile from 2.13.1)

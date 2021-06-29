@@ -1,0 +1,14 @@
+Download freetype source from https://www.freetype.org/
+Current version is 2.10.4 require zlib bzip2 libpng brotli
+
+    ./configure --disable-static --without-harfbuzz
+    make
+    sudo make install
+
+add harfbuzz support, after build harfbuzz, build freetype again
+    sudo make uninstall
+    make clean
+    ./configure --disable-static --with-harfbuzz
+    make
+    sudo make install
+    

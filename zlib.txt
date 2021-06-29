@@ -1,0 +1,6 @@
+Download zlib source from https://zlib.net/ or https://github.com/madler/zlib/
+Current version is 1.2.11
+
+    ./configure --64 --archs="-arch arm64" -shared
+    make
+    sudo make install

@@ -1,0 +1,6 @@
+Download libjpeg-turbo source from https://ijg.org/
+Current version is v9d
+
+    ./configure --disable-static
+    make
+    sudo make install

@@ -1,0 +1,6 @@
+Download FriBdi source from https://github.com/fribidi/fribidi/
+Current version is 1.0.10
+
+    ./configure
+    make
+    sudo make install

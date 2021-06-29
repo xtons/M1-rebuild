@@ -1,0 +1,6 @@
+Download openssl source from https://www.openssl.org/
+Current version is 1.1.1k
+
+    ./Configure shared zlib-dynamic darwin64-arm64-cc
+    make
+    sudo make install

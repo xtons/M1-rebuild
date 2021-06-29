@@ -1,0 +1,6 @@
+Donwnload libpng source from http://www.libpng.org/ or https://libpng.sourceforge.io/
+Current version is 1.6.37 require zlib
+
+    ./configure --disable-static
+    make
+    sudo make insatll

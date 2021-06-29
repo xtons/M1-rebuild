@@ -1,0 +1,6 @@
+Download harfubzz source from https://github.com/harfbuzz/harfbuzz
+Current version is 2.8.1 require freetype
+
+    ./configure
+    make
+    sudo make install

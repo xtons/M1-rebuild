@@ -1,0 +1,5 @@
+Download mpv source from https://github.com/mpv-player/mpv
+Current version is 0.33.1
+
+    ./bootstrap。py
+    ./waf configure --disable-debug-build --enable-lua --enable-zlib --enable-jpeg --enable-lua --lua=luajit
