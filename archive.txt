@@ -1,0 +1,6 @@
+Download libarchive source from https://www.libarchive.org/ or https://github.com/libarchive/libarchive
+Current version is 3.5.1
+
+    ./configure --disable-static
+    make
+    sudo make install

@@ -1,5 +1,7 @@
 Download mpv source from https://github.com/mpv-player/mpv
-Current version is 0.33.1
+Current version is 0.33.1 require zlib libjpeg libarchive libfreetype libharfbuzz libass fribdi libluajit fontconfig ffmpeg placebo
 
     ./bootstrap。py
-    ./waf configure --disable-debug-build --enable-lua --enable-zlib --enable-jpeg --enable-lua --lua=luajit
+    ./waf configure --disable-debug-build --enable-zlib --enable-jpeg --enable-lua --lua=luajit --disable-cplugins --disable-javascript --disable-macos-media-player --disable-macos-touchbar --enable-placebo
+    ./waf build
+    TOOLS/osxbundle.py build/mpv or sudo ./waf install

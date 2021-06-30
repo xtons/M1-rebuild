@@ -5,5 +5,5 @@ Current lts version is 5.12.11
     cd qt5
     ./init-repository --module-subset=default,-qtwebengine,-qt3d
     (Modify qtbase/mkspecs/common/macx.conf add -DCMAKE_OSX_ARCHITECTURES="arm64")
-    PATH=$PATH:/Applications/CMake.app/Contents/bin ./configure -prefix /Volumes/Repos/opt/qt5 -opensource -confirm-license -nomake examples -nomake tests -static -release -device-option QMAKE_APPLE_DEVICE_ARCHS=arm64
+    PATH=$PATH:/Applications/CMake.app/Contents/bin ./configure -prefix /Volumes/Repos/opt/qt5 -opensource -confirm-license -nomake examples -nomake tests -static -release -system-zlib
     PATH=$PATH:/Applications/CMake.app/Contents/bin make

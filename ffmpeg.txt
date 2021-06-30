@@ -1,0 +1,6 @@
+Download ffmpeg source from https://ffmpeg.org/
+Current version is 4.4
+
+    ./configure --disable-static --enable-shared
+    make 
+    sudo make install
