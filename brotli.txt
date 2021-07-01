@@ -1,6 +1,6 @@
 Download brotli source from https://github.com/google/brotli
 Current version is 1.0.9
 
-    PATH=/Applications/CMake.app/Contents/bin:$PATH ./configure-cmake
+    /configure-cmake --disable-debug
     make
     sudo make install

@@ -1,0 +1,6 @@
+Download glib source from https://download.gnome.org/sources/glib/
+Current version is 2.68.3
+
+    meson _build --buildtype=release
+    ninja -C_build
+    sudo ninja install -C_build

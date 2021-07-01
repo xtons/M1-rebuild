@@ -1,0 +1,6 @@
+Download autoconf source from https://www.gnu.org/software/automake/
+Current version is 1.16.3
+
+    ./configure
+    make
+    sudo make install

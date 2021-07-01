@@ -1,5 +1,11 @@
 Download autoconf source from https://www.gnu.org/software/autoconf/
-Current version is 2.71
+Current version is 2.71 but automake require 2.65
+
+    ./configure
+    make
+    sudo make install
+
+After install automake reinstall 2.71
 
     ./configure
     make

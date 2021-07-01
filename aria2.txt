@@ -1,0 +1,7 @@
+Download aria2 source from https://aria2.github.io/
+Current version is 1.35.0
+
+    autoreconf -i
+    /configure --disable-static
+    make
+    sudo make install

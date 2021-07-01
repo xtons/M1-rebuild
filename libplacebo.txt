@@ -1,11 +1,8 @@
 Download libplacebo source from https://github.com/haasn/libplacebo
 Current version is 3.120.3 but mpv require 2.72.2
 
-    sudo pip3 install meson
-    PATH=/Application/CMake.app/Contents/bin:$PATH pip3 install ninja
-    meson ./build
-    meson configure ./build
-    modify build/build.ninja add --target=arm64-apple-macos11 for compile and link command
+    meson ./build --buildtype=release
+    modify build/build.ninja (maybe need modify ninja.build add target command for compile and link)
     ninja -C./build
     sudo ninja install -C./build
 

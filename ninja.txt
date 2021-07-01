@@ -1,0 +1,2 @@
+Download ninja precomiled package from github
+Current version is 1.10.2

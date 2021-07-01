@@ -1,0 +1,6 @@
+Download source from https://pcre.org/
+Current version is 8.45
+
+    ./configure --disable-static --enable-jit --enable-utf8 --enable-unicode-properties
+    make
+    sudo make install

@@ -1,0 +1,6 @@
+Download source from https://www.gnu.org/software/gettext/
+Current version is 0.21
+
+    ./configure --disable-static
+    make
+    sudo make

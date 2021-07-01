@@ -1,6 +1,12 @@
 Download pkgconfig source from https://pkgconfig.freedesktop.org/
 Current version is 0.29.2
 
-    ./configure --with-internal-glib
+    ./configure --with-internal-glib --disable-static
+    make
+    sudo make install
+
+After installed glib
+
+    ./configure --disable-static
     make
     sudo make install

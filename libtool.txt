@@ -1,0 +1,6 @@
+Download autoconf source from https://www.gnu.org/software/libtool/
+Current version is 2.4.6
+
+    ./configure --disable-static
+    make
+    sudo make install

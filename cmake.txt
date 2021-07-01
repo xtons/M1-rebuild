@@ -1,0 +1,6 @@
+Download cmake source from https://cmake.org/
+Current version is 3.20.5 but I used 3.21.0-rc2
+
+    ./bootstrap
+    make
+    sudo make install

@@ -1,0 +1,6 @@
+Download source from https://www.libsdl.org/
+Current version is 2.0.14
+
+    ./configure --disable-static
+    make
+    sudo make install
